@@ -19,6 +19,13 @@
 |token|아바타를 변경할 토큰입니다. / headers Query Data가 True일시 headers에 Authorization의 value에 넣어주세요 / ```꼭 Authorization 키를 포함해야합니다.```|
 |image|전송받은 이미지로 토큰 아바타를 변경합니다. / ```이미지는 base64로 인코딩된 String을 보내주세요 Byte 전송 X```|
 
+|Return Code|설명|
+|------|---|
+|200|성공했을때 반환|
+|303|시간제한 / 동시에 많은 인원이 요청시 발생|
+|404|토큰에 문제가 있을때 반환|
+|505|올바른 JSON 데이터가 전송되지 않았을때 발생|
+
 <h1>기본 요청 헤더</h1>
 <pre>
 {
@@ -41,3 +48,5 @@
         "x-super-properties": "eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiRGlzY29yZCBDbGllbnQiLCJyZWxlYXNlX2NoYW5uZWwiOiJjYW5hcnkiLCJjbGllbnRfdmVyc2lvbiI6IjEuMC42MDAiLCJvc192ZXJzaW9uIjoiMTAuMC4yMjAwMCIsIm9zX2FyY2giOiJ4NjQiLCJzeXN0ZW1fbG9jYWxlIjoic2siLCJjbGllbnRfYnVpbGRfbnVtYmVyIjo5NTM1MywiY2xpZW50X2V2ZW50X3NvdXJjZSI6bnVsbH0="
     }
 <pre>
+
+
