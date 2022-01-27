@@ -20,6 +20,7 @@
 |image|전송받은 이미지로 토큰 아바타를 변경합니다. / ```이미지는 base64로 인코딩된 String을 보내주세요 Byte 전송 X``` /|
 
 <h1>기본 요청 헤더</h1>
+```
 {
         "authority": "discord.com",
         "method": "PATCH",
@@ -39,4 +40,4 @@
         "x-debug-options": "bugReporterEnabled",
         "x-super-properties": "eyJvcyI6IldpbmRvd3MiLCJicm93c2VyIjoiRGlzY29yZCBDbGllbnQiLCJyZWxlYXNlX2NoYW5uZWwiOiJjYW5hcnkiLCJjbGllbnRfdmVyc2lvbiI6IjEuMC42MDAiLCJvc192ZXJzaW9uIjoiMTAuMC4yMjAwMCIsIm9zX2FyY2giOiJ4NjQiLCJzeXN0ZW1fbG9jYWxlIjoic2siLCJjbGllbnRfYnVpbGRfbnVtYmVyIjo5NTM1MywiY2xpZW50X2V2ZW50X3NvdXJjZSI6bnVsbH0="
     }
-
+```
