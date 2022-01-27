@@ -3,7 +3,7 @@
 
 ##<h2>API BASE URL</h2>
 - http://xoker.xyz/api/v1/users/avatar
-<br>
+
 |Method|설명|
 |------|---|
 |POST|디스코드 아바타 변경|
