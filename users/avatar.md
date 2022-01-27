@@ -17,10 +17,10 @@
 |------|---|
 |Optional: headers|headers Query Data가 True일시 전송받은 헤더로 디스코드 API 리퀘스트 / ```꼭 Authorization 키를 포함해야합니다.``` / 기본값: False|
 |token|아바타를 변경할 토큰입니다. / headers Query Data가 True일시 headers에 Authorization의 value에 넣어주세요 / ```꼭 Authorization 키를 포함해야합니다.```|
-|image|전송받은 이미지로 토큰 아바타를 변경합니다. / ```이미지는 base64로 인코딩된 String을 보내주세요 Byte 전송 X``` /|
+|image|전송받은 이미지로 토큰 아바타를 변경합니다. / ```이미지는 base64로 인코딩된 String을 보내주세요 Byte 전송 X```|
 
 <h1>기본 요청 헤더</h1>
-```
+```json
 {
         "authority": "discord.com",
         "method": "PATCH",
