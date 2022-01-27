@@ -22,14 +22,7 @@
 <h1>기본 요청 헤더</h1>
 ```
 def safeHeader(token):
-    software_names = [SoftwareName.CHROME.value]
-    operating_systems = [OperatingSystem.WINDOWS.value,
-                            OperatingSystem.LINUX.value]
-
-    user_agent_rotator = UserAgent(
-        software_names=software_names, operating_systems=operating_systems, limit=100)
-
-    return {
+{
         "authority": "discord.com",
         "method": "PATCH",
         "scheme": "https",
